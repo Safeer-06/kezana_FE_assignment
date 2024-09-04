@@ -1,0 +1,140 @@
+.copilot_container {
+  border: 1px solid rgb(223 234 238/1);
+  background-color: white;
+  border-radius: 1rem;
+  min-height: 250px;
+  padding: 1rem 1.5rem 1.5rem 1.5rem;
+}
+
+.header {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.header p {
+  margin: 0;
+  font-size: 0.9375rem;
+  font-weight: bold;
+}
+.references {
+  width: 26px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 0.8125rem;
+  font-weight: bold;
+  background-color: #dfeaee;
+  cursor: pointer;
+}
+
+.info {
+  margin-top: 1rem;
+  padding: 0.75rem;
+  background-color: rgb(242 247 249/1);
+  border-radius: 0.75rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: 16px;
+}
+.info p {
+  margin: 0;
+}
+
+.reference_information {
+  margin-top: 0.75rem;
+  margin-bottom: 2rem;
+  color: #48778f;
+  font: 13px;
+}
+
+.font_bold {
+  font-weight: bold;
+}
+
+.credibility_information {
+  display: flex;
+  align-items: center;
+  border-radius: 0.5rem;
+  width: auto;
+  height: 37px;
+  padding: 0 0.5rem;
+  border: 1px solid rgb(223 234 238/1);
+  gap: 0.5rem;
+}
+
+.credibility_information p {
+  margin: 0;
+  font-size: 13px;
+  color: #28333d;
+}
+.credibility_container {
+  gap: 0.75rem;
+  display: flex;
+  @media (max-width: 550px) {
+    flex-direction: column;
+  }
+}
+
+.divider {
+  background-color: rgb(223 234 238/1);
+  height: 1px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  margin-left: -1.5rem;
+  margin-right: -1.5rem;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  @media (max-width: 550px) {
+    flex-direction: column;
+  }
+}
+
+.snapshot_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  width: 192px;
+  height: 40px;
+  background-color: transparent;
+  border: none;
+  border-radius: 1.5rem;
+  text-decoration: underline;
+  font-weight: bold;
+
+  &:hover {
+    background-color: rgb(242 247 249/1);
+  }
+}
+
+.points_action_container {
+  display: flex;
+  @media (max-width: 550px) {
+    flex-direction: column;
+  }
+}
+.points_action_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  width: 92px;
+  height: 40px;
+  background-color: transparent;
+  border: none;
+  border-radius: 1.5rem;
+  text-decoration: underline;
+  font-weight: bold;
+
+  &:hover {
+    background-color: rgb(242 247 249/1);
+  }
+}

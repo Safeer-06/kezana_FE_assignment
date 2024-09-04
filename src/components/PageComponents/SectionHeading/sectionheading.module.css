@@ -1,0 +1,27 @@
+.header_container {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.title {
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+.beta_label {
+  width: 35px;
+  height: 23px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.25rem;
+  font-size: 10px;
+  background-color: rgb(242 247 249/1);
+}
+
+.paper_count {
+  color: #4b778f;
+  font-size: 13px;
+  font-weight: bold;
+}

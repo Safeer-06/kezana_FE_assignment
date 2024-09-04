@@ -1,0 +1,39 @@
+.search_container {
+  position: sticky;
+  z-index: 40;
+  top: 0;
+  padding-bottom: 25px;
+}
+
+.export {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.export_button {
+  width: 135px;
+  height: 40px;
+  border-radius: 1.5rem;
+  border: 1px solid rgb(194 214 223/1);
+  color: #28333d;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background-color: rgb(242 247 249/1);
+  &:hover {
+    background-color: rgb(223 234 238 / 1);
+  }
+}
+
+
+.points_container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}

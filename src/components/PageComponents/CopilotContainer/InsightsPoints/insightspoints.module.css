@@ -1,0 +1,16 @@
+.font_bold {
+  font-weight: bold;
+}
+
+.references {
+  width: 26px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 0.8125rem;
+  font-weight: bold;
+  background-color: #DFEAEE;
+  cursor: pointer;
+}

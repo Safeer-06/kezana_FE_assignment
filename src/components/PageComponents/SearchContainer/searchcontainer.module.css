@@ -1,0 +1,47 @@
+.input_container {
+  display: flex;
+  align-items: center;
+  position: relative;
+  height: 50px;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-shadow: 0 6px 12px 0 rgba(53, 70, 85, 0.04);
+  border: 1px solid rgb(223 234 238/1);
+  outline: 2px solid transparent;
+  border-radius: 0.75rem;
+  font-size: 16px;
+  background-color: white;
+
+  &:hover,
+  &:focus,
+  &:active,
+  &:focus-visible {
+    border: 1px solid rgb(6 142 241/1);
+  }
+}
+
+.search_icon {
+  display: flex;
+  position: absolute;
+  right: 17px;
+  top: 15px;
+  cursor: pointer;
+}
+
+.cancel_icon {
+  display: flex;
+  position: absolute;
+  right: 66px;
+  top: 15px;
+  cursor: pointer;
+}
+
+.input {
+  width: 88%;
+  height: 40px;
+  border: none;
+  outline: 2px solid transparent;
+  border-radius: 0.75rem;
+  font-size: 16px;
+}

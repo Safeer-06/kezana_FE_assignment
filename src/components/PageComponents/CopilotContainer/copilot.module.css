@@ -1,0 +1,8 @@
+.copilot_container {
+  margin-top: 1.5rem;
+  border: 1px solid rgb(223 234 238/1);
+  background-color: white;
+  border-radius: 1rem;
+  min-height: 250px;
+  padding: 1rem 1.5rem 1.5rem 1.5rem;
+}
